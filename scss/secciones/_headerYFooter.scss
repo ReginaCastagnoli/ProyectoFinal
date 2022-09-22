@@ -1,0 +1,100 @@
+//HEADER
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+
+    &__fondoColor {
+        background-color: #bcb8b1b8;
+
+        a {
+            color: #463f3a;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 15px;
+
+            &:hover {
+                color: #f4f3ee;
+                font-weight: bolder;
+                font-size: 25px;
+            }
+        }
+    }
+
+    &__logo {
+        height: 100px;
+
+    }
+
+    &__icono {
+        background-color: transparent;
+        transition: var(--bs-navbar-toggler-transition);
+        color: #463f3a;
+        text-decoration: none;
+        font-size: 25px;
+        border: none;
+    }
+}
+
+//footer
+
+.footer {
+    background-color: $beige-osc;
+    min-height: 40vh;
+    text-align: center;
+
+    &__grid {
+        display: grid;
+        align-items: start;
+        margin: 0px;
+        padding-left: 0%;
+    }
+
+    &__div {
+        h4 {
+            color: #463f3a;
+            text-decoration: underline;
+        }
+
+        ul {
+            list-style: none;
+            text-align: center;
+            margin: 0px;
+            padding-left: 0%;
+
+            i {
+                color: #463f3a;
+                font-size: 1.3rem;
+                margin: 5px;
+            }
+
+
+        }
+
+
+        .redes {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .explorar {
+            li {
+                a {
+                    text-decoration: none;
+                    color: #463f3a;
+                    &:hover{
+                        font-weight: bold;
+                    }
+                }
+
+            }
+
+        }
+        .datos{
+            color: #463f3a;
+        }
+
+    }
+}
