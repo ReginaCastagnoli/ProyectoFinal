@@ -12,6 +12,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        
 
         .texto-contacto {
             font-size: 15px;
@@ -20,17 +21,24 @@
         }
 
         input {
-            width: 90%;
-            margin: 10px;
-
+            width: 45%;
+            margin: 5px;
+            &:hover{
+                background-color:$beige ;
+                transform: translate(5px, 5px);
+            }
             &::placeholder {
                 text-align: center;
             }
         }
 
         textarea {
-            width: 90%;
-            margin: 10px;
+            width: 45%;
+            margin: 5px;
+            &:hover{
+                background-color:$beige ;
+                transform: translate(5px, 5px);
+            }
 
             &::placeholder {
                 text-align: center;
@@ -56,6 +64,7 @@
             font-size: 20px;
             font-weight: bolder;
             color: $marron-oscuro;
+            background-color: $beige-osc;
 
             &:hover {
                 font-size: 22px;
