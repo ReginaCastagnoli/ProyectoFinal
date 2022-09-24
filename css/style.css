@@ -381,3 +381,32 @@ main .accordion .accordion-item .accordion-collapse .accordion-body strong a {
     font-size: 3.8rem; }
     .main-contacto .imagen-redes .i-contacto:hover {
       font-size: 4rem; } }
+
+/*  html index */
+.main-index .img-index {
+  justify-content: space-evenly; }
+  .main-index .img-index .container-index img {
+    width: 490px; }
+  .main-index .img-index .container-index .content .h1-index {
+    font-size: 40px; }
+
+.main-index .quien-soy {
+  justify-content: center; }
+  .main-index .quien-soy .presentacion {
+    font-size: 25px;
+    text-align: left; }
+
+h1 {
+  font-size: 100px; }
+
+.h2 {
+  font-size: 4rem; }
+
+.footerdiv__ h4 {
+  font-size: 2rem; }
+
+.footerdiv__ .redes li i {
+  font-size: 1.5rem; }
+  .footerdiv__ .redes li ihover {
+    font-weight: bold;
+    font-size: 1.6rem; }
