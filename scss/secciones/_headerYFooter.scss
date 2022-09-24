@@ -24,6 +24,10 @@
 
     &__logo {
         height: 100px;
+        &:hover{
+            transform: scale(1.1);
+            
+        }
 
     }
 

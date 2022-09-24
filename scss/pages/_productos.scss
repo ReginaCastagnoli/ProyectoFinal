@@ -6,30 +6,36 @@ main {
 
         .card {
             margin: 5px;
-            .card-body {
-                display: flex;
-                flex-direction: column;
+            &:hover {
+                border-color: $marron-oscuro;
+                border: 8px;
+                box-shadow: 0 1px 1px $marron-claro, 0 0 8px $marron-claro;
+            }
 
-                .card-title {
-                    @include fontStyle (bolder);
-                }
+                .card-body {
+                    display: flex;
+                    flex-direction: column;
 
-                .card-text {
-                    @extend %texto-card;
-                }
+                    .card-title {
+                        @include fontStyle (bolder);
+                    }
 
-                .boton {
-                    @extend %boton-card;
+                    .card-text {
+                        @extend %texto-card;
+                    }
 
-                    &:hover {
-                        color: #ebedee;
-                        font-size:20px ;
-                        background-color:$marron-oscuro;
+                    .boton {
+                        @extend %boton-card;
+
+                        &:hover {
+                            color: #ebedee;
+                            font-size: 20px;
+                            background-color: $marron-oscuro;
+                        }
                     }
                 }
             }
+
+
         }
-
-
     }
-}

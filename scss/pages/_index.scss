@@ -10,6 +10,10 @@
             img {
                 width: 170px;
                 padding: 5px;
+                &:hover{
+                    transform: scale(1.1);
+                    transition: .3s;
+                }
             }
 
             .content {

@@ -1,61 +1,74 @@
-@media(min-width:1044px){
+@media(min-width:1044px) {
 
 
-/*  html index */
-.main-index {
-    .img-index {
-        justify-content: space-evenly;
+    /*  html index */
+    .main-index {
+        .img-index {
+            justify-content: space-evenly;
 
-        .container-index {
-            img {
-                width: 490px;
-            }
+            .container-index {
+                img {
+                    width: 490px;
+                }
 
-            .content {
-                .h1-index {
-                    font-size: 40px;
+                .content {
+                    .h1-index {
+                        font-size: 40px;
+                    }
                 }
             }
         }
-    }
 
-    .quien-soy {
-        justify-content: center;
+        .quien-soy {
+            justify-content: center;
 
-        .presentacion {
-            font-size: 25px;
-            text-align: left;
+            .presentacion {
+                font-size: 25px;
+                text-align: left;
+            }
         }
     }
-}
 
-h1 {
-    font-size: 100px;
-}
+    h1 {
+        font-size: 100px;
+    }
 
-.h2 {
-    font-size: 4rem;
-}
+    .h2 {
+        font-size: 4rem;
+    }
 
-//footer
-.footer {
-    &div__ {
-        h4 {
-            font-size: 2rem;
-        }
+    //footer
+    .footer {
+        &div__ {
+            h4 {
+                font-size: 2rem;
+            }
         }
     }
-/* html productos */
-main {
-    .grid-container-card {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
 
-/* html galeria */
-.main-galeria {
-    .grid-container-galeria {
-        grid-template-columns: repeat(3, 1fr);
+    /* html productos */
+    main {
+        .grid-container-card {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+    /* html galeria */
+    .main-galeria {
+        .grid-container-galeria {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+
+// html faq
+.accordion {
+    .accordion-item {
+        .accordion-header {
+            .accordion-button-faq {
+                font-size: 1.5rem;
+            }
+        }
     }
 }
 }
