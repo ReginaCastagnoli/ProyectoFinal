@@ -76,6 +76,15 @@
         .redes {
             display: flex;
             justify-content: center;
+            li{
+                a{
+                    i:hover{
+                        font-size: 2rem;
+                        font-weight: bold;
+
+                    }
+                }
+                }
 
         }
 

@@ -95,6 +95,9 @@ main .accordion .accordion-item .accordion-collapse .accordion-body {
   .footer__div .redes {
     display: flex;
     justify-content: center; }
+    .footer__div .redes li a i:hover {
+      font-size: 2rem;
+      font-weight: bold; }
   .footer__div .explorar li a {
     text-decoration: none;
     color: #463f3a; }
@@ -161,7 +164,9 @@ main .grid-container-card {
         text-align: center;
         font-weight: bolder; }
       main .grid-container-card .card .card-body .boton:hover {
-        color: #ebedee; }
+        color: #ebedee;
+        font-size: 20px;
+        background-color: #463f3a; }
 
 .main-galeria .img-galeria {
   display: flex;
@@ -320,7 +325,6 @@ main .accordion .accordion-item .accordion-collapse .accordion-body strong a {
       font-size: 20px; }
   /* html productos */
   main .grid-container-card {
-    width: 48rem;
     justify-content: space-around; }
   /*  html galeria */
   .main-galeria .grid-container-galeria {
@@ -360,7 +364,6 @@ main .accordion .accordion-item .accordion-collapse .accordion-body strong a {
     padding: 10px; }
   /* html productos */
   main .grid-container-card {
-    width: 64rem;
     grid-template-columns: repeat(2, 1fr); }
   /* html galeria */
   .main-galeria .grid-container-galeria {
@@ -405,8 +408,6 @@ h1 {
 .footerdiv__ h4 {
   font-size: 2rem; }
 
-.footerdiv__ .redes li i {
-  font-size: 1.5rem; }
-  .footerdiv__ .redes li ihover {
-    font-weight: bold;
-    font-size: 1.6rem; }
+/* html productos */
+main .grid-container-card {
+  grid-template-columns: repeat(3, 1fr); }
