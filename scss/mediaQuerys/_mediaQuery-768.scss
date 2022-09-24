@@ -1,7 +1,8 @@
 @media(min-width:768px) {
-    h1{
+    h1 {
         font-size: 40px;
     }
+
     /* header */
     .header {
         a {
@@ -19,13 +20,13 @@
     }
 
     /* footer */
-    .footer{
+    .footer {
         min-height: 20vh;
-    
-    &__grid {
-        grid-template-columns: repeat(3, 1fr);
+
+        &__grid {
+            grid-template-columns: repeat(3, 1fr);
+        }
     }
-}
 
     /*  html index */
     .main-index {
@@ -72,9 +73,9 @@
     .main-galeria {
         .grid-container-galeria {
             display: grid;
-            max-width: 850px;
-            grid-template-columns: repeat(2, 1fr);
-            justify-items: stretch;
+            grid-template-columns: repeat(1, 1fr);
+            justify-items: center;
+            justify-content: center;
         }
     }
 

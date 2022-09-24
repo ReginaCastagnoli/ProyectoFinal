@@ -44,7 +44,7 @@
     /* html galeria */
     .main-galeria {
         .grid-container-galeria {
-            max-width: 1300px;
+            grid-template-columns: repeat(2, 1fr);
         }
     }
 
