@@ -83,4 +83,14 @@
             }
         }
     }
+    .contacto-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    .maps{
+        display: flex;
+        flex-direction: column;
+    justify-content: space-between;
+    }
 }

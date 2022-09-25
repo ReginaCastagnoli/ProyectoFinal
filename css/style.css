@@ -373,6 +373,11 @@ main .accordion .accordion-item .accordion-collapse .accordion-body strong a {
     .main-contacto .imagen-redes a:hover {
       font-size: 3.2rem; }
 
+.main-contacto .contacto-grid iframe {
+  width: 100%;
+  padding: 15px;
+  display: flex; }
+
 @media (min-width: 768px) {
   h1 {
     font-size: 40px; }
@@ -463,7 +468,14 @@ main .accordion .accordion-item .accordion-collapse .accordion-body strong a {
   .main-contacto .imagen-redes .i-contacto {
     font-size: 3.8rem; }
     .main-contacto .imagen-redes .i-contacto:hover {
-      font-size: 4rem; } }
+      font-size: 4rem; }
+  .contacto-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+  .maps {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; } }
 
 @media (min-width: 1044px) {
   /*  html index */
