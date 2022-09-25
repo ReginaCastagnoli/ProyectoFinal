@@ -24,9 +24,10 @@
 
     &__logo {
         height: 100px;
-        &:hover{
+
+        &:hover {
             transform: scale(1.1);
-            
+
         }
 
     }
@@ -47,6 +48,12 @@
     background-color: $beige-osc;
     min-height: 40vh;
     text-align: center;
+        .Pie{
+            background-color: #f4f3ee;
+            img{
+                width: 75px;
+            }
+    }
 
     &__grid {
         display: grid;
@@ -80,15 +87,16 @@
         .redes {
             display: flex;
             justify-content: center;
-            li{
-                a{
-                    i:hover{
+
+            li {
+                a {
+                    i:hover {
                         font-size: 2rem;
                         font-weight: bold;
 
                     }
                 }
-                }
+            }
 
         }
 
@@ -97,7 +105,8 @@
                 a {
                     text-decoration: none;
                     color: #463f3a;
-                    &:hover{
+
+                    &:hover {
                         font-weight: bold;
                     }
                 }
@@ -105,7 +114,8 @@
             }
 
         }
-        .datos{
+
+        .datos {
             color: #463f3a;
         }
 
